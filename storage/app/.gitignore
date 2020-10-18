@@ -1,0 +1,4 @@
+!public/
+!/public/test
+!.gitignore
+/public/images

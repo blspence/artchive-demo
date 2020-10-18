@@ -1,0 +1,233 @@
+a {
+    color:#154f7d;
+}
+
+a .card {
+    text-decoration:underline;
+}
+
+.exhibit-slider {
+    padding: 45px;
+    margin-left:20%;
+    margin-right:20%
+}
+
+.exhibit-slider #carousel {
+    border: 4px solid #1089c0;
+    margin: 0;
+}
+
+.exhibit-slider #thumbcarousel {
+    margin: 12px 0 0; padding: 0 45px;
+}
+
+.exhibit-slider #thumbcarousel .item {
+    text-align: center;
+}
+
+.exhibit-slider #thumbcarousel .item .thumb {
+    border: 4px solid #cecece;
+    width: 20%; margin: 0 2%;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    max-width: 98px;
+}
+
+.exhibit-slider #thumbcarousel .item .thumb:hover {
+    border-color: #1089c0;
+}
+
+.exhibit-slider .item img {
+    /* width: 100%; height: auto;  */
+    width:100%;
+    max-height:600px;
+}
+
+.carousel-control {
+    color: #0284b8;
+    text-align: center;
+    text-shadow: none;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    top: 23%;
+}
+
+.carousel-control:hover, .carousel-control:focus, .carousel-control:active {
+    color: #333;
+}
+
+.carousel-caption, .carousel-control .fa {
+    font: normal normal normal 30px/26px FontAwesome;
+}
+
+.carousel-control {
+    background-color: rgba(0, 0, 0, 0);
+    bottom: auto;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    top: 30%;
+    width: auto;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 34, 51, 0.1);
+    box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+    border-radius: 0.15rem;
+}
+
+.carousel-caption{
+    color:black;
+    background-color:rgb(255,255,255,0.90);
+}
+
+.navbar-laravel.navbar-red {
+    background-color: rgb(179,23,52) !important;
+    color: white;
+}
+
+.navbar-laravel.navbar-red .nav-link, .navbar-laravel.navbar-red .navbar-brand {
+    color: white;
+          /* top right bottom left */
+    padding: 3px 15px 3px 15px;
+}
+
+.nav-link, .dropdown-toggle {
+    font-size: 1.10em;
+
+}
+
+.card.card-blue .card-header {
+    background-color: rgb(0, 54, 99);
+    color: white;
+}
+
+.fa-social {
+    padding: 10px;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+}
+
+.img-scaled {
+    max-width: 400px;
+    max-height: 400px;
+    height: auto;
+}
+
+div.polaroid-r {
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right:25px;
+}
+
+div.container {
+    padding: 10px 20px;
+}
+
+.uper {
+    margin-left: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.card.exhibit{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    color:white;
+    background-color: #232426;
+    border:0;
+}
+
+.card.exhibit .card-body{
+    padding:0;
+}
+
+
+
+
+.card.exhibit .title{
+    padding-top: 15px;
+}
+
+.error-box{
+    background-color: #f5bfc2;
+    border:1px solid #ee2b34;
+    border-radius: 5px 5px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height:60vw;
+    object-fit: cover;
+}
+
+.page-link {
+    color:#154f7d;
+    text-decoration:none;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .card-img-top {
+        height:60vw;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .card-img-top{
+        height:15vw;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
